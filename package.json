@@ -26,5 +26,8 @@
     "jshint": "^2.9.5",
     "npm-run-all": "^4.1.2",
     "rimraf": "^2.6.2"
+  },
+  "dependencies": {
+    "colors": "^1.2.1"
   }
 }
