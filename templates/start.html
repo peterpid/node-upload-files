@@ -3,13 +3,10 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 </head>
 <body>
-    <h1>Upload file</h1>
+    <h1>Upload files</h1>
     <form action="/upload" enctype="multipart/form-data" method="post">
-        <label>File title</label>
-        <input type="text" name="title">
-        <br>
-        <label>File</label>
-        <input type="file" name="upload" multiple="multiple"><br>
+        <label>Files</label>
+        <input type="file" name="upload" multiple="multiple" accept="image/png"><br>
         <input type="submit" value="Upload">
     </form>
 </body>
